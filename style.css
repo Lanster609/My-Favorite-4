@@ -1,0 +1,71 @@
+#home{
+    text-align: center;
+    background: linear-gradient(#eed9ff 0%, #1f0038 100%);
+    color: bisque;
+    background-repeat: no-repeat;
+}
+#heading{
+    text-shadow: 2px 2px #010026;
+}
+.line{
+    height:6px;
+    background-color:black;
+    width:70px;
+    margin:8px auto;
+}
+#soccer{
+    border-radius: 50%
+        width:100px;
+}
+#about{
+    text-align: center;
+    background-color: lightblue;
+    color: crimson;
+}
+.menu{
+    list-style: none;
+    font-family: sans-serif;
+    position:absolute;
+    top:10px;
+    right:30px;
+    z-index: 10;
+    cursor: pointer;
+}
+.links{
+   color: darkred;
+    float:left;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family:cursive;
+    font-size: 20px;
+}
+#descript{
+    font-family: 'Odibee Sans', cursive;
+    font-size: 40px;
+}
+.links:hover{
+    background-color:aquamarine;
+}
+#positions{
+    background-color: darkslategray;
+    color: white;
+}
+#p{
+    text-align: center;
+}
+html{
+    scroll-behavior: smooth;
+}
+#inspirations img{
+    transition: transform .2s;
+    width:600px;
+    height:600px;
+}
+#inspirations img:hover{
+    transform: scale(0.9);
+}
+#inspirations{
+    text-align: center;
+}
